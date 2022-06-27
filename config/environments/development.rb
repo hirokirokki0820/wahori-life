@@ -58,7 +58,7 @@ Rails.application.configure do
     :port => 587,
     :domain => 'localhost',
     :user_name => 'apikey',
-    :password => ENV['SENDGRID_APIKEY'],
+    :password => ENV['SENDGRID_API_KEY'],
     :authentication => :plain,
     :enable_starttls_auto => true
   }
